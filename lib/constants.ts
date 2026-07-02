@@ -8,7 +8,8 @@ export function waUrl(message?: string) {
 }
 
 export const socialLinks = {
-  instagram: "https://www.instagram.com/invoker.studio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  instagram:
+    "https://www.instagram.com/invoker.studio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
 } as const;
 
 export const services = [
@@ -64,21 +65,24 @@ export const services = [
 
 export const clients = [
   {
+    name: "PT DINAMIKA",
+    project: null,
+    review:
+      "Absensi online-nya praktis, rekap data karyawan jadi lebih cepat dan akurat.",
+    rating: 5,
+  },
+  {
     name: "Eddy Motor Service Station",
-    project: "Landing Page & Profil Bisnis",
-    review: "Lumayan puas, websitenya bikin bengkel makin banyak pelanggan baru.",
+    project: null,
+    review:
+      "Lumayan puas, websitenya bikin bengkel makin banyak pelanggan baru.",
     rating: 5,
   },
   {
-    name: "Client A",
-    project: "Sistem CRUD & Dashboard",
-    review: "Dulu ribet pakai Excel, sekarang lebih gampang dan tim juga cepat tanggap.",
-    rating: 5,
-  },
-  {
-    name: "Client B",
-    project: "E-Commerce Solution",
-    review: "Akhirnya punya toko online yang beneran rapi dan gampang diurus sendiri.",
+    name: "SEWELAS",
+    project: null,
+    review:
+      "Akhirnya punya toko online yang beneran rapi dan gampang diurus sendiri.",
     rating: 5,
   },
 ];

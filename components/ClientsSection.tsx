@@ -31,7 +31,7 @@ export default function ClientsSection() {
       className="min-h-screen flex items-center snap-start"
     >
       <div className="section-content mx-auto max-w-6xl w-full px-4 py-12">
-        <SectionHeading>Our Client</SectionHeading>
+        <SectionHeading>Klien Kami</SectionHeading>
 
         <div className="grid gap-8 md:grid-cols-3 items-stretch">
           {clients.map((client, i) => (

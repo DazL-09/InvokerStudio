@@ -131,7 +131,7 @@ export default function Hero() {
           <span className="tagline-rotate-inner">
             <span className="tagline-gradient">Landing Page</span>
             <span className="tagline-gradient">Sistem CRUD</span>
-            <span className="tagline-gradient">E-Commerce</span>
+            <span className="tagline-gradient">Pemberdayaan Bisnis</span>
           </span>
         </span>
       </h1>
