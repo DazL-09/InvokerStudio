@@ -311,10 +311,9 @@ section[id].is-active > .section-content {
 
 /* ===== Tagline Rotate ===== */
 @keyframes word-cycle {
-  0%, 22% { transform: translateY(0); }
-  25%, 47% { transform: translateY(-33.33%); }
-  50%, 72% { transform: translateY(-66.67%); }
-  76%, 100% { transform: translateY(0); }
+  0%, 35% { transform: translateY(0); }
+  40%, 75% { transform: translateY(-50%); }
+  80%, 100% { transform: translateY(0); }
 }
 
 .tagline-rotate {
